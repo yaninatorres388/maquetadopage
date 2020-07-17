@@ -43,11 +43,12 @@ header {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 34px;
 }
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+   
 }
 
 /* parte 1 del main*/
@@ -62,7 +63,7 @@ p {
         
 .texto1 {
     font-style: 'Open Sans', sans-serif;
-    font-size:22px ;
+    font-size: 15px ;
     display: flex;
     flex-direction: column;
     padding: 70px;
@@ -123,8 +124,8 @@ p {
 }
 
 #textointerno {
-    font-size: 15px;
-    padding-right: 20%;
+    font-size: 14px;
+    padding-right: 10%;
     margin-top: 20px;
     
 }
@@ -146,9 +147,9 @@ p {
 
 
 .cards {
-    font-size: 10px;
-    width: 350px;
-    height: 200px;
+    font-size: 12px;
+    width: 300px;
+    height: 193px;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 2px 0px 4px 0px hsl(0, 0%, 75%);

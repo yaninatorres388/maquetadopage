@@ -22,8 +22,8 @@ body{
 /* Menu de navegacion*/
 
 header {
-    width: 90%;
-    padding: 70px;
+    width: 100%;
+    padding: 70px 0px 50px 70px;
     display: flex;
     justify-content: space-between;
     
@@ -88,8 +88,8 @@ p {
     background-color: hsl(224, 93%, 58%);
 }
 .imagenillus1 {
-    width:500px; 
-    height:400px;
+    width:190%; 
+    height:450px;
 }
 
 .imagencurva {
@@ -176,8 +176,8 @@ p {
 }
 
 .imagenillus {
-    width: 510px;
-    height: 350px;
+    width: 190%;
+    height: 380px;
     margin-top: 40%;
 }
 
@@ -209,7 +209,7 @@ p {
 }   
 .buscador2 {
     color: hsl(0, 0%, 75%);
-    width: 460px;
+    width: 500px;
     height: 40px;
     margin-top: 25%;
     margin-left: 40px; 
@@ -221,7 +221,7 @@ p {
 
 .Boton2 {
     color:  hsl(240, 75%, 98%);
-    width: 180px;
+    width: 200px;
     height: 40px; 
     border-radius: 2px; 
     margin: 20px;

@@ -22,6 +22,7 @@ body{
 /* Menu de navegacion*/
 
 header {
+    width: 90%;
     padding: 70px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +33,7 @@ header {
 #boton li{
     display: inline;
     font-style: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     padding: 20px;
     color:black;
@@ -54,8 +55,7 @@ p {
 .box1 {
     line-height: 1.5;
     display: grid;
-    grid-template-columns: 700px repeat(2, 370px);
-    grid-template-rows: 450px, 200px;
+    grid-template-columns: 700px repeat(2, 1fr);
     
 }
 
@@ -88,13 +88,14 @@ p {
     background-color: hsl(224, 93%, 58%);
 }
 .imagenillus1 {
-    width:550px; 
+    width:500px; 
     height:400px;
 }
 
 .imagencurva {
-    width: 1540px;
+    width: 100%;
     grid-row: 2 / 3;
+    grid-column: 1 / -1;
     
    
    
@@ -107,7 +108,7 @@ p {
     background-color: hsl(240, 75%, 98%);
     line-height: 1.5;
     display: grid;
-    grid-template-columns: 700px repeat(2, 370px);
+    grid-template-columns: 700px repeat(2, 1fr);
     grid-template-rows: 600px;
 }
 
@@ -184,7 +185,7 @@ p {
 
 .box3 {
     display: grid;
-    grid-template-columns: 700px repeat(2, 370px);;
+    grid-template-columns: 700px repeat(2, 1fr);;
     grid-template-rows: 300px;
     background-color: hsl(238, 22%, 44%);
     
@@ -236,7 +237,7 @@ footer {
     color: white;
     font-size: 15px;
     display: grid;
-    grid-template-columns: repeat(4, 360px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 230px;
     padding: 70px;
     background-color:hsl(243, 87%, 12%);
@@ -283,3 +284,4 @@ footer {
     border: 1px solid;
     border-radius: 20px;
 }
+

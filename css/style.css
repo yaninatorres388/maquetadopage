@@ -238,7 +238,7 @@ footer {
     font-size: 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 230px;
+    grid-template-rows: 220px;
     padding: 70px;
     background-color:hsl(243, 87%, 12%);
 
@@ -261,6 +261,7 @@ footer {
 
 .Descripciones {
     padding-top: 90px;
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -268,6 +269,7 @@ footer {
 
 .Info{
     padding-top: 80px;
+    padding-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
